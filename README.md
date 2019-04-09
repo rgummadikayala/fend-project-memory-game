@@ -1,20 +1,11 @@
 # Memory Game Project
 
-## Table of Contents
+## How to play the game
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
-
-## Instructions
-
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
-
-To get started, open `js/app.js` and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
-
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
-
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+- The game randomly shuffles the cards after each refresh
+- Users should match the cards to finish the game
+- If the number of moves needed to finish game are more than 8 and less than 16 user gets 2 star rating. If moves more than 16 user gets 1 star rating
+= Time is displayed in seconds
+- Once all cards are matched, a pop up message is displayed with time taken, star rating and number of moves
+- Users can restart any time in between the game
+- Users can play again from the success pop up
